@@ -17,79 +17,168 @@
 
         <!--Importar o css no bootstrap-->
         <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/indexcss.css"/>
 
     </head>
 
     <body>
 
-        <!--Tudo que for "fluider" ocupa a largura total da página-->
         <div class="container-fluid">
-            <!--------------------------------------------------------------------->
-            <div class="row">
 
-                <h4>Menu horizontal (navbar)</h4>
+            <div class="row" id="margemnav">
+
+                <div class="col">
+                    <!--MENU-->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Cadastro</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Carrinho</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav> 
+
+                </div>
 
             </div>
-            <!--------------------------------------------------------------------->        
-            <!--Essa é a linha do topo-->
-            <div class="row text-primary">
 
-                <div class="col-2">
+            <div class="row">
 
-                    <h4>CATEGORIAS</h4>
+                <div class="col-8">
+                    <!--CARDS-->
+                    <div class="card float-left" style="width: 20rem;" id="margemcard">
+                        <img class="card-img-top" src="img/buneis.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                     
-                    <ul class="list-group">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-
+                    <div class="card float-left" style="width: 20rem;" id="margemcard">
+                        <img class="card-img-top" src="img/buneis.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card float-left" style="width: 20rem;" id="margemcard">
+                        <img class="card-img-top" src="img/buneis.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card float-left" style="width: 20rem;" id="margemcard">
+                        <img class="card-img-top" src="img/buneis.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card float-left" style="width: 20rem;" id="margemcard">
+                        <img class="card-img-top" src="img/buneis.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card float-left" style="width: 20rem;" id="margemcard">
+                        <img class="card-img-top" src="img/buneis.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card float-left" style="width: 20rem;" id="margemcard">
+                        <img class="card-img-top" src="img/buneis.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    
                 </div>
 
-                <div class="col-10">
+                <div class="col-4">
 
-                    <h4>CONTEÚDO</h4>
-
+                    <ul class="nav flex-column bg-secondary ">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white
+                               " href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                    
                 </div>
 
             </div>
-            <!--------------------------------------------------------------------->        
-            <div class="row">
-
+            
+            <div class="row" id="margem-footer">
+                
                 <div class="col">
-
-                    <h4>Departamentos</h4>
-
-                </div>
-
-                <div class="col">
-
-                    <h4>Minha Conta</h4>
-
-                    <a href="#" class="btn-blue">Login</a>
-
-                </div>
-
-                <div class="col">
-
-                    <h4>Atendimento</h4>
-
+                    
+                    <h4>MINHA CONTA</h4>
+                    
+                    <p>sdfhgdhjbgissdghds
+                    oufhohjowf</p>
+                    
                 </div>
                 
                 <div class="col">
-
-                    <h4>Sobre nós</h4>
-
+                       
+                    <h4>DEPARTAMENTOS</h4>
+                    
+                    <p> isufuhi</p>
+                    <p> isufuhi</p>
+                    <p> isufuhi</p>
+                    
                 </div>
                 
                 <div class="col">
-
-                    <h4>Pagamento</h4>
-
+                       
+                    <h4>ATENDIMENTO</h4>
+                    
+                    <p>E-mail: jhdfddyu@dkjhg.com</p>
+                    
                 </div>
-                <!--------------------------------------------------------------------->            
+                
             </div>
 
         </div>
