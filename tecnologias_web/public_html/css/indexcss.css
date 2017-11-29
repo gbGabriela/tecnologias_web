@@ -39,7 +39,7 @@
     
    margin-left: 10px;
    margin-top: 10px;
-   text-align: center;
+  
   
     
 }
@@ -49,11 +49,5 @@
     background-color: #E8E8E8;
     text-align: center;
     text-orientation: auto;
-    
-}
-
-#produto{
-    
-    position: center;
     
 }
