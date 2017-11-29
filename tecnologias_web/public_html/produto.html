@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>CARRINHO</title>
+        <title>NaSuaCabeça</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Importar a biblioteca jQuery-->
@@ -24,8 +24,7 @@
     <body>
 
         <div class="container-fluid">
-
-
+            
             <div class="row" id="margemnav">
 
                 <div class="col">
@@ -63,77 +62,33 @@
 
             </div>
 
-            <div class="row">
+        </div>
 
-                <div class="col">
-
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col"></th>
-                                <th scope="col">PRODUTO</th>
-                                <th scope="col">QUANTIDADE</th>
-                                <th scope="col">PREÇO</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Boné Aba Reta Preto</td>
-                                <td>01</td>
-                                <td>R$25,00</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Viseira Esportiva Azul Marinho</td>
-                                <td>01</td>
-                                <td>R$20,00</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Boné Polo Cinza</td>
-                                <td>02</td>
-                                <td>R$28,90</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Viseira Esportiva Rosa NIKE</td>
-                                <td>01</td>
-                                <td>R$35,90</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div>
-
+        <div class="row">
+            
+            <div class="col-9" >
+                
+                <img src="img/bonepolocinza.jpg">
+                
             </div>
+            
+            <div class="col-3" id="produto" >
 
-            <form>
-
-                <div class="row" id="carrinho">
-                    <label>CEP: </label>
-                    <input type="text">
+                <div id="descricao">
+                    
+                    <h6>Boné Preto Aba Reta</h6>
+                    <p>Descrição:</p>
+                    <p>Modelo: Boné Aba Reta.</p>
+                    <p>Cor: preto.</p>
+                    <p>Coleção: Star Wars.</p>
+                    <p>*Preço especial para colecionador.</p>
+                    
                 </div>
-
-                <div class="row" id="carrinho">
-                    <label>Email: </label>
-                    <input type="email">
-                </div>
-
-                <div class="row" id="totalcompra">
-                    <label>Total: </label>
-                    <input type="text" value="R$ 64,80">
-                </div>
-
-                <div class="row">
-
-                    <button type="submit" class="btn btn-seconary" id="posicaobotao">Compar</button>
-
-                </div>
-
-            </form>
-
-            <div class="row" id="margem-footer">
+            </div>
+            
+        </div>
+        
+        <div class="row" id="margem-footer">
 
                 <div class="col">
 
@@ -166,9 +121,7 @@
                 </div>
 
             </div>
-
-        </div>
-
+        
     </body>
 
 </html>

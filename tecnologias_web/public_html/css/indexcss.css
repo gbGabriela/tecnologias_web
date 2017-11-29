@@ -1,6 +1,7 @@
 #margemnav{
     
     margin-bottom: 20px;
+    background-color: #E8E8E8;
     
 }
 
@@ -14,6 +15,8 @@
 #margem-footer{
     
     margin-top: 10px;
+    background-color: #828282;
+    text-align: center;
     
 }
 
@@ -25,7 +28,32 @@
     
 }
 
-#tabelacarrinho{
+#carrinho{
+   
+   margin-left: 10px;
+   margin-top: 10px;
+   text-align: center; 
+}
+
+#totalcompra{
     
+   margin-left: 10px;
+   margin-top: 10px;
+   text-align: center;
+  
+    
+}
+
+#descricao{
+    
+    background-color: #E8E8E8;
+    text-align: center;
+    text-orientation: auto;
+    
+}
+
+#produto{
+    
+    position: center;
     
 }
